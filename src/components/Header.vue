@@ -1,6 +1,6 @@
 <template>
 <header class="main-header">
-<h1 class="main-title">Ishikawa's portfolio</h1>
+<h1 class="main-title"><router-link :to="`/`">Ishikawa's portfolio</router-link></h1>
 </header>
 </template>
 
@@ -17,7 +17,7 @@ width:896px;
 margin:0 auto;
 & a{
     color:#fff;
-    text-decoratetion:none;
+    text-decoration:none;
     &:hover{
         opacity:0.8;
     }

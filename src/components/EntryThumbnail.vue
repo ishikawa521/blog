@@ -3,11 +3,13 @@
   <section class="entry" v-for="entry in entries">
     <h2 class="entry-title"><router-link :to="`/entry/${entry.id}`">{{entry.title}}</router-link></h2>
     <figure class="entry-image">
+    <router-link :to="`/entry/${entry.id}`">
       <img 
        :src="entry.image.url"
        :width="entry.image.width" 
        :height="entry.image.height"
         />
+        </router-link>
     </figure>
   </section>
   </div>
