@@ -14,17 +14,11 @@
 </template>
 
 <script>
-import{useRouter}from'vue-router'
 export default {
   props: {
-      entries:Object,
+    entries: Object,
   },
-setup(props){
-    const router=useRouter()
-    return{
-    }
-   }
-  }
+}
 </script>
 
 <style lang="scss" scoped>

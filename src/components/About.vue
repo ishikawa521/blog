@@ -2,7 +2,7 @@
  <section class="about">
   <h2 class="about-title">About</h2>
   <figure class="about-image">
-    <img src="">
+    <img src="../../1594212622101_1.jpg">
   </figure>
   <p class="about-name">Ishikawa Shuri</p>
   <p class="about-birthday">2001 / 05 / 21</p>
@@ -21,22 +21,23 @@
   flex-direction:column;
   justify-content:center;
   overflow:hidden;
-  &>*{
-    margin:0 auto;
-    width:100%;
-    max-width:980px;
+  & > * {
+    padding: 0 12px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 896px;
   }
-  &:after{
-    margin:0 auto;
-    position:absolute;
-    display:block;
-    content:'';
-    width:2000px;
-    height:2000px;
-    background-color:rgba(0,0,0,0.1);
-    transform:rotate(15deg);
-    left:-2100px;
-    right:0;
+  &:after {
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    content: '';
+    width: 2000px;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: rotate(15deg);
+    left: -1900px;
+    right: 0;
   }
 }
 .about-title{
@@ -56,12 +57,11 @@
   margin:auto;
   width:130px;
   height:130px;
-  background-color:#fff;
   border-radius:6px;
   position:absolute;
   top:0;
-  right:20px;
-  left:860px;
+  left: 720px;
+  right: 20px;
   bottom:0;
 
   @media screen and(max-width:1024px){
@@ -72,19 +72,23 @@
     margin:10px auto;
   }
 }
+
+.about-image img{
+  margin:auto;
+  width:130px;
+  height:130px;
+}
+
 .about-name{
   font-size:20px;
-  padding:0 16px;
   z-index:6;
 }
 .about-birthday{
-  padding:0 16px;
   font-size:14px;
   margin-bottom:16px;
   z-index:6;
 }
 .about-skill{
-  padding:0 16px;
   font-size:16px;
   z-index:6;
 }

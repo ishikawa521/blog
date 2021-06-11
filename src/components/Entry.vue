@@ -8,15 +8,24 @@
     </div>
   </section>
 </template>
+
 <script>
+import { useRouter } from 'vue-router'
 export default {
   props: {
+    id: String,
     title: String,
     image: Object,
     body: String
+  },
+  setup(props) {
+    const router = useRouter()
+    return {
+    }
   }
 }
 </script>
+
 <style lang="scss" scoped>
 .entry {
   padding-top: 8px;
@@ -28,6 +37,20 @@ export default {
   padding: 8px 16px;
   background-color: rgba(0, 0, 0, 0.02);
   border-bottom: 2px solid #eee;
+}
+.body {
+  ::v-deep img {
+    width: 100%;
+    height: auto;
+  }
+}
+.image {
+  margin: 16px;
+  max-width: 500px;
+  > img {
+    width: 100%;
+    height: auto;
+  }
 }
 .body {
   padding: 16px;

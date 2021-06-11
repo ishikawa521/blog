@@ -1,6 +1,6 @@
 <template>
 <header class="main-header">
-<h1 class="main-title">Ishikawadesu</h1>
+<h1 class="main-title">Ishikawa's portfolio</h1>
 </header>
 </template>
 
@@ -13,8 +13,8 @@ background:#333;
 padding:17px;
 font-size:18px;
 color:#fff;
-width:980px;
-margin:auto;
+width:896px;
+margin:0 auto;
 & a{
     color:#fff;
     text-decoratetion:none;
