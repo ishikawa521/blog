@@ -1,6 +1,6 @@
 <template>
   <ul class="sns">
-    <li class="sns-item"><a href="https://github.com/ishikawa521" target="_blank"><Github />Github</a></li>
+    <li class="sns-item"><a href="https://github.com/ishikawa0521" target="_blank"><Github />Github</a></li>
   </ul>
 </template>
 

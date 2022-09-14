@@ -26,5 +26,6 @@ export default{
     max-width:980px;
     margin:0 auto;
     color:#fff;
+    text-align: center;
 }
 </style>
