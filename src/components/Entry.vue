@@ -39,6 +39,7 @@ export default {
   border-bottom: 2px solid #eee;
 }
 .body {
+  overflow: hidden;
   ::v-deep img {
     width: 100%;
     height: auto;
