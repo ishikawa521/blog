@@ -51,7 +51,7 @@ export default {
     right: 0;
     z-index: -2;
   }
-  &:after {
+  &::after {
     margin: 0 auto;
     position: absolute;
     display: block;
