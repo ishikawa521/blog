@@ -36,6 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .entry-container {
+  position: relative;
   padding: 64px 12px;
   margin: 0 auto;
   max-width: 896px;
@@ -51,7 +52,7 @@ export default {
     right: 0;
     z-index: -2;
   }
-  &::after {
+  &:after {
     margin: 0 auto;
     position: absolute;
     display: block;
